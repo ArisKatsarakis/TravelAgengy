@@ -1,0 +1,25 @@
+{
+  "name": "travelagency",
+  "version": "1.0.0",
+  "description": "Learning Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArisKatsarakis/TravelAgengy.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Aris Katsarakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArisKatsarakis/TravelAgengy/issues"
+  },
+  "homepage": "https://github.com/ArisKatsarakis/TravelAgengy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
