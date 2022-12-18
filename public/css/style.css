@@ -1,0 +1,17 @@
+header img {
+    width: 100px;
+}
+header {
+
+    max-height: 100px;
+}
+.container {
+    margin-top: 2rem;
+}
+.weatherWidget {
+    margin-bottom: 3rem;
+    padding: 0;
+    margin-left: 2rem;
+    display: inline-flex;
+    line-height: 1rem;
+}

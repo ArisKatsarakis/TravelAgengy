@@ -1,0 +1,22 @@
+<h1>Table </h1>
+
+<ul>
+    {{#each tours}}
+        {{! Learning to use each in handlebars}}
+        <li>
+            {{name}} - {{price}}
+            {{#if ../currencies}}
+                ({{../../currency.abbrev}})
+            {{/if}}
+        </li>
+    {{/each}}
+    
+</ul>
+{{#unless currencies}}
+        <p>All prices in {{currency.name}}</p>
+{{/unless}}
+{{#if specialsUrl}}
+    <p>Check out our <a href="{{specialsUrl}}"> Specials ! </a></p>
+{{else}}
+    <p>Please check often for specials</p>
+{{/if}}

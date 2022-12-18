@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ArisKatsarakis/TravelAgengy#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express3-handlebars": "^0.5.2"
   }
 }
